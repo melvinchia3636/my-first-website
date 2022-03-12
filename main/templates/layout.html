@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">{% block head %} {% if title %}
+    <title>
+        </>CODE ARCHIVE - {{ title }}</title>
+    {% else %}
+    <title>
+        </>CODE ARCHIVE</title>
+    {% endif %} {% endblock head %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<script type="text/javascript">
+  var open = false
+  /* Set the width of the mainsidebar to 250px and the left margin of the page content to 250px */
+  function openNav() {
+    if (open==false) {
+      document.getElementById("mymainsidebar").style.width = "250px";
+      open=true
+    } else {
+      closeNav()
+    }
+  }
+
+  /* Set the width of the mainsidebar to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mymainsidebar").style.width = "0";
+    open=false
+  }
+</script>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+        <a class="navbar-brand sidebar-icon" onclick="openNav()"><span class='sidebar-icon-icon' data-feather="menu"></span></a>
+        <a class="navbar-brand" href="{{ url_for('home') }}">&lt;/&gt; CODE ARCHIVE</a>
+        <ul class="navbar-nav ml-auto">
+            {% if current_user.is_authenticated %}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn-profile" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-feather="user"></span> Profile</a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="{{ url_for('profile') }}">My Account</a>
+                    <a class="dropdown-item" href="{{ url_for('logout') }}">Log Out</a>
+                </div>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a class="btn btn-primary-signin pad-20" href="{{ url_for('register') }}" role="button">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="btn btn-outline-light" href="{{ url_for('login') }}" role="button">Sign In</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+    <div class='spacing'></div>
+    <div class='container-fluid'>
+      <div id="mymainsidebar" class="mainsidebar">
+        <nav class="bg-light">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ url_for('home') }}">
+                                <span data-feather="home"></span>
+                                Home <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="search"></span>
+                                Explore
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bell"></span>
+                                Announcements
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('profile') }}">
+                                <span data-feather="user"></span>
+                                Profile
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="settings"></span>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+      </div>
+      
+        <div class="row">
+            <nav class="col-md-2 bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ url_for('home') }}">
+                                <span data-feather="home"></span>
+                                Home <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="search"></span>
+                                Explore
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bell"></span>
+                                Announcements
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('profile') }}">
+                                <span data-feather="user"></span>
+                                Profile
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="settings"></span>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-auto col-lg-10 px-4 post-container">
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+                    <div class='container'>
+                        {% with messages = get_flashed_messages(with_categories=true) %} {% if messages %} {% for category, message in messages%}
+                        <div class='alert alert-{{ category }}'>
+                            {{ message }}
+                        </div>
+                        {% endfor %} {% endif %} {% endwith %} {% block content %}{% endblock content %}</div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>

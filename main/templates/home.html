@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block content %}
+	{% if posts %}
+		{% for post in posts %}
+			<br>
+			<div class="shadow-sm p-3 mb-5 bg-white rounded">
+				<div class='container'>
+					<div>
+						<a href='{{ url_for("post", post_id=post.id) }}' class='post_title'>{{ post.title }}</a>
+						<p>By <span class='post-author'><a href='#'>{{ post.author.username }}</a></span> on {{ post.date_posted.strftime('%d %b %Y') }}</p>
+						<p>{{ post.content }}</p>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	{% else %}
+		<p class="nothing_sign container shadow-sm p-3 mb-5 bg-white rounded">No Post</p>
+	{% endif %}
+	{% if current_user.is_authenticated %}
+		<button type="button" class="btn btn-primary btn-circle btn-xl btmrght btn-fade" onclick="window.location.href='{{ url_for('new_post') }}'"><span data-feather="plus"></span></button> 
+	{% endif %}
+{% endblock content %}

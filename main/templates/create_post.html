@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block content %}
+	<div class='container'>
+		<form method='POST' action='' autocomplete="off">
+			{{ form.hidden_tag() }}
+			<fieldset class='form-group'>
+				<legend class='border-bottom mb-4 bigger'>New Post</legend>
+				<div class='form-group'>
+					{{ form.title.label(class_='form-control-label') }}
+					{% if form.title.errors %}
+						{{ form.title(class_='form-control form-control-lg is-invalid', autocomplete="off") }}
+						<div class='invalid-feedback'>
+							{% for error in form.title.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.title(class_='form-control form-control-lg', autocomplete="off") }}
+					{% endif %}
+				</div>
+				<div class='form-group'>
+					{{ form.content.label(class='form-control-label') }}
+					{% if form.content.errors %}
+						{{ form.content(class_='form-control form-control-lg is-invalid', autocomplete="new-content") }}
+						<div class='invalid-feedback'>
+							{% for error in form.content.errors %}
+								<span>{{ error }}</span>
+							{% endfor %}
+						</div>
+					{% else %}
+						{{ form.content(class_='form-control form-control-lg disable-resize', autocomplete="new-content", rows="10") }}
+					{% endif %}
+				</div>
+				{{ form.submit(class='btn btn-primary right-align') }} 
+				<button class='btn btn-outline-primary cancel-btn right-align'>Cancel</button>
+			</fieldset>
+			</div>
+		</form>
+	</div>
+{% endblock content %}

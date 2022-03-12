@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&display=swap');
+
+.btn-primary-signin {
+	color: #007BFF;
+	background-color: white;
+}
+
+.btn-primary {
+  border-radius: 35px; 
+  width: 100px;
+}
+
+.pad-20 {
+  margin-right: 20px;
+}
+
+a.post_title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+
+.post-author {
+	color: #007BFF;
+}
+
+.post-author:hover {
+  text-decoration: underline;
+}
+
+.container-fluid, .row, .flex-column, .container {
+	height: 100%;
+}
+
+
+html, body {
+    height: 100%;
+    min-height: 2000px;
+}
+
+.form-check {
+	margin-left: 0px;
+}
+
+.btn-link {
+	color: white;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.nothing_sign {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.custom-file-input.selected:lang(en)::after {
+  content: "" !important;
+}
+
+.custom-file {
+  overflow: hidden;
+}
+
+.custom-file-input {
+  white-space: nowrap;
+}
+
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
+
+.btmrght {
+	position: fixed;
+	bottom: 30px;
+	right: 16px;
+}
+
+.btn-profile:hover {
+	cursor: pointer;
+}
+
+.disable-resize {
+  resize: none;
+  height: 200px;
+}
+
+.right-align {
+  float:right;
+}
+
+.cancel-btn {
+  border-radius: 35px;
+  margin-right: 10px;
+  width:100px;
+}
+
+.bigger {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-float {
+  float: left;
+  margin-right: 20px;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-top: 13px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  cursor:pointer;
+  color:white;
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front {
+
+}
+
+.see-profile-button {
+  width: 50px;
+  height: 50px;
+  background-color: #007BFF;
+  border-radius: 50px;
+  color: white;
+}
+
+.middle-btn {
+  margin-top: 13px;
+}
+
+.dropdown:hover .dropdown-primary {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+.sidebar-icon { display: none; cursor: pointer; color: white; padding-top: 3px;}
+.sidebar-icon-icon { color: white; }
+
+@media only screen and (max-width:1250px){
+  .sidebar-icon { display: block; }
+  .sidebar {display: none;}
+  .post-container { margin: 10px auto 20px; }
+}
+
+  /* The mainsidebar menu */
+.mainsidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #F8F9FA; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the mainsidebar */
+}
+
+/* The mainsidebar links */
+.mainsidebar a {
+  display: block;
+  transition: 0.3s;
+}
+
+/* Position and style the close button (top right corner) */
+.mainsidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .mainsidebar {padding-top: 15px;}
+  .mainsidebar a {font-size: 18px;}
+}
+
+.spacing { height:60px; }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.btn-fade {
+  transition-duration: 0.2s;
+}
+
+.btn-fade:hover {
+  color:#007BFF;
+  background-color: white;
+}
+
+.edit-icon {
+  color: black;
+  transition: .2s
+}
+
+.edit-icon:hover {
+  color: #555555;
+  transition: .2s;
+}

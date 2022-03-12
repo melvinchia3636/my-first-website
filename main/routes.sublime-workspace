@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"tras",
+				"transform\tproperty"
+			],
+			[
+				"trasn",
+				"translateY()\ttransform"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"Po",
+				"PostForm\ttype ⟠"
+			],
+			[
+				"Te",
+				"TextAreaField\ttype ⟠"
+			],
+			[
+				"pict",
+				"picture_path\tbytes | str ⟠"
+			],
+			[
+				"Use",
+				"UserMixin\ttype ⟠"
+			],
+			[
+				"val",
+				"ValidationError\ttype ⟠"
+			],
+			[
+				"pass",
+				"hashed_password"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"S",
+				"ScreenManager\ttype ⟠"
+			],
+			[
+				"sudo",
+				"sudokurow\tlist ⟠"
+			],
+			[
+				"sudokublock",
+				"sudokublocktemp\tlist ⟠"
+			],
+			[
+				"adv",
+				"advanced_button\tButton ⟠"
+			],
+			[
+				"new",
+				"newnameinputframe\tFrame ⟠"
+			],
+			[
+				"gri",
+				"grid_forget()\tfunction ⟠"
+			],
+			[
+				"canc",
+				"cancel_button\tButton ⟠"
+			],
+			[
+				"cancel",
+				"cancel_button"
+			],
+			[
+				"grid",
+				"grid_forget"
+			],
+			[
+				"f",
+				"family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 227.0,
+		"history":
+		[
+			"print('shit')",
+			"main.py",
+			"main.pu"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/kelvi/Documents/Python_V2/school management system/login.html",
+		"/C/Users/kelvi/Documents/Python_V2/school management system/static/css/test.html",
+		"/C/Users/kelvi/Documents/Python_V2/codeblog/static/css/main.css",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/layout.html",
+		"/C/Users/kelvi/Documents/Python_V2/school management system/static/main.css",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/home.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/static/main.css",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/static/test.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/models.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/create_post.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/routes.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/forms.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/login.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/profile.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/templates/bootstrap.css",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/run.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main/__init__.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/forms.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/templates/login.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/templates/register.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/static/main.css",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/models.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/main.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/templates/about.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/templates/layout.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/templates/home.html",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/site.db",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/venv/Lib/site-packages/flask/templating.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/venv/Lib/site-packages/dns/rdtypes/IN/AAAA.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/venv/Lib/site-packages/sqlalchemy/testing/plugin/plugin_base.py",
+		"/C/Users/kelvi/Documents/Python_V2/flask learning/flaskproject.sublime-project",
+		"/C/Users/kelvi/Documents/Python_V2/codeblog/main.py",
+		"/C/Users/kelvi/Documents/Python_V2/codeblog/templates/login.html",
+		"/C/Users/kelvi/Documents/Python_V2/codeblog/templates/signup.html",
+		"/C/Users/kelvi/Documents/Python_V2/codeblog/login.html",
+		"/C/Users/kelvi/Documents/Python_V2/chat app/test.py",
+		"/C/Users/kelvi/Documents/Python_V2/python socket/main.py",
+		"/C/Users/kelvi/Documents/Python_V2/help people/list/main.py",
+		"/C/Users/kelvi/Documents/Python_V2/help people/list/list.py",
+		"/C/Users/kelvi/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/pygments/formatters/html.py",
+		"/C/Users/kelvi/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/pygments/formatter.py",
+		"/C/Users/kelvi/Documents/Python_V2/covid-19 data analysis/main.py",
+		"/C/Users/kelvi/Documents/Python V1/completed/de card/main.pyw",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/hellodjango/settings.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/hellodjango/urls.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/pages/views.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/templates/navbar.html",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/templates/contact.html",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/templates/base.html",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/templates/home.html",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/blog/admin.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/blog/models.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/templates/home.css",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/manage.py",
+		"/C/Users/kelvi/Documents/Python_V2/learn Django/src/db.sqlite3",
+		"/C/Users/kelvi/Documents/Python_V2/PyQt5 learning/first.py",
+		"/C/Users/kelvi/Documents/Python_V2/quiz/main.pyw",
+		"/C/Users/kelvi/Documents/Python_V2/quiz/shit.js",
+		"/C/Users/kelvi/Documents/hard drive backup/Scratch/adventure (1).json",
+		"/C/Users/kelvi/Documents/Python_V2/notebook/main.pyw",
+		"/C/Users/kelvi/Documents/Python_V2/notebook/main.py",
+		"/C/Users/kelvi/Documents/Python V2/notebook/main.py",
+		"/C/Users/kelvi/Downloads/facebook-melvinchia148 (1)/messages/your_messages.html",
+		"/C/Users/kelvi/Documents/Python V2/covid-19 data analysis/choropleth.py",
+		"/C/Users/kelvi/Documents/Python V1/image encryption/code.txt",
+		"/C/Users/kelvi/Documents/Python V1/encryption/encrypt_kit.py",
+		"/C/Users/kelvi/Documents/Python V1/de card/main.pyw",
+		"/C/Users/kelvi/Documents/Python V2/covid-19 data analysis/main.py",
+		"/C/Users/kelvi/Downloads/test/choropleth.py",
+		"/C/Users/kelvi/Downloads/test/test.py",
+		"/C/Users/kelvi/Downloads/test/testlol.txt",
+		"/G/Xisuma Hermitcraft/thumbnail/html_source_code.txt",
+		"/G/txt file/lol.txt",
+		"/C/Users/kelvi/Documents/Python/image encryption/PRINTING TECHNOLOGY & TECHNIQUE",
+		"/C/Users/kelvi/Documents/Python/image encryption/code3.txt",
+		"/C/Users/kelvi/Documents/Python/image encryption/code.txt",
+		"/C/Users/kelvi/Documents/shit.hta",
+		"/C/Users/kelvi/Documents/Python/image encryption/hmm.txt",
+		"/C/Users/kelvi/Documents/Python/image album/hmm.txt",
+		"/C/Users/kelvi/Documents/Python/image album/hmmkey.txt",
+		"/C/Users/kelvi/Documents/ooo.txt",
+		"/C/Users/kelvi/Documents/Python/ark knight/main.pyw",
+		"/C/Users/kelvi/Documents/Python/ark knight/main.py",
+		"/C/Users/kelvi/Documents/Python/color picker/palette.py",
+		"/C/Users/kelvi/Documents/Python/Dictionary GUI/main.py",
+		"/C/Users/kelvi/Documents/Python/web scrab/program/New folder/huge internet company.py",
+		"/C/Users/kelvi/Documents/Python/web scrab/program/New folder/huge internet company - Copy.py",
+		"/C/Users/kelvi/Documents/Python/kivy test/shit.kv",
+		"/C/Users/kelvi/Documents/Python/kivy test/kivylol.py",
+		"/C/Users/kelvi/Documents/Python/kivy test/kvtest2.py",
+		"/C/Users/kelvi/Documents/Python/kivy test/my.kv",
+		"/C/Users/kelvi/Documents/Python/kivy test/forth.kv",
+		"/C/Users/kelvi/Documents/Python/kivy test/kivytest4.py",
+		"/C/Users/kelvi/Documents/Python/kivy test/kivytest3.py",
+		"/C/Users/kelvi/Documents/Python/kivy test/kivytest.py",
+		"/C/Users/kelvi/Documents/Python/work tracker/tracker.py",
+		"/C/Users/kelvi/AppData/Roaming/pyinstaller/bincache00_py38_32bit/_testcapi.pyd",
+		"/C/Users/kelvi/Documents/Python/pyqttest.py",
+		"/C/Users/kelvi/Documents/Python/shorturl.py",
+		"/C/Users/kelvi/Documents/Python/sudoku.py",
+		"/C/Users/kelvi/Documents/Python/database manager/dblol.py",
+		"/C/Users/kelvi/AppData/Local/Temp/kite_tutorial.py"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/untitled.sublime-build",
+	"project": "routes.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 229.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"AAAA"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

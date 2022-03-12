@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class='container'>
+<br>
+	<div class="shadow-sm p-3 mb-5 bg-white rounded">
+		<div class='container'>
+			<div class="flip-box post-float">
+			  <div class="flip-box-inner">
+			    <div class="flip-box-front">
+			      <img src='{{ url_for("static", filename="profile_pics/"+post.author.image_file) }}' class='rounded-circle post-image' onclick="location.href='https://www.google.com';">
+			    </div>
+			    <div class="flip-box-back">
+			      <div class='see-profile-button' onclick="location.href='https://www.google.com';"><span data-feather="user" class='middle-btn'></span></div>
+			    </div>
+			  </div>
+			</div>
+			{% if post.author == current_user %}
+				<div class='float-right'><a href='https://google.com' class='edit-icon'><span data-feather='edit'></span></a></div>
+			{% endif %}
+			<a href='/' class='post_title'>{{ post.title }}</a>
+			<p>By <span class='post-author'><a href='#'>{{ post.author.username }}</a></span> on {{ post.date_posted.strftime('%d %b %Y') }}</p>
+			<br>
+			<p>{{ post.content }}</p>
+		</div>
+	</div>
+</div>
+{% endblock content %}
